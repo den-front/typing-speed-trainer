@@ -1,4 +1,4 @@
-<h1>Typing Speed Trainer</h1>
+<h1>Typing Speed Trainer | <a href="https://den-front.github.io/showcases/typing-speed-trainer/">DEMO</a></h1>
 
 <img href="demo.gif" style="width: 100%; height: auto" />
 
@@ -13,7 +13,7 @@ The Typing Speed Trainer is a web-based application designed to improve your typ
 
 <h2>Usage</h2>
 
-To use the Typing Speed Trainer, simply navigate to the <a href="#">website</a> and select an exercise to begin. You can customize the settings to adjust the font, text size, and other preferences. As you type, the app will provide real-time feedback on your accuracy and WPM, allowing you to track your progress and improve your typing skills over time.
+To use the Typing Speed Trainer, simply navigate to the <a href="https://den-front.github.io/showcases/typing-speed-trainer/">website</a> and select an exercise to begin. You can customize the settings to adjust the font, text size, and other preferences. As you type, the app will provide real-time feedback on your accuracy and WPM, allowing you to track your progress and improve your typing skills over time.
 
 <h2>Development</h2>
 
