@@ -1,6 +1,6 @@
 <h1>Typing Speed Trainer</h1>
 
-<img href="demo.gif" />
+<img href="demo.gif" style="width: 100%; height: auto" />
 
 The Typing Speed Trainer is a web-based application designed to improve your typing speed and accuracy. It features a simple and intuitive interface that provides a range of exercises to help you practice typing on a keyboard. The app is written in HTML, CSS, and JavaScript, making it easy to use and compatible with all modern web browsers.
 
