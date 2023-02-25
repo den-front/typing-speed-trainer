@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyboard Trainer</title>
+    <!-- Libs -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.50.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Text -->
+    <div class="p-16">
+      <div class="mockup-window border bg-base-300">
+        <div
+          class="flex justify-center px-4 py-4 bg-base-200 text-3xl font-light tracking-wide text-slate-500"
+        >
+          <div class="trainer-content">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum,
+            incidunt officiis aspernatur accusamus est exercitationem ea
+            expedita repudiandae laboriosam voluptatem doloremque ad ut facilis
+            impedit velit voluptates nesciunt eaque nisi!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+        <span class="border border-slate-300 px-1"></span>
+     -->
+
+    <!-- Keyboard emulator -->
+    <div>
+      <div class="flex justify-center gap-1 my-1 w-full">
+        <kbd class="kbd kbd-lg" data-key="q">q</kbd>
+        <kbd class="kbd kbd-lg" data-key="w">w</kbd>
+        <kbd class="kbd kbd-lg" data-key="e">e</kbd>
+        <kbd class="kbd kbd-lg" data-key="r">r</kbd>
+        <kbd class="kbd kbd-lg" data-key="t">t</kbd>
+        <kbd class="kbd kbd-lg" data-key="y">y</kbd>
+        <kbd class="kbd kbd-lg" data-key="u">u</kbd>
+        <kbd class="kbd kbd-lg" data-key="i">i</kbd>
+        <kbd class="kbd kbd-lg" data-key="o">o</kbd>
+        <kbd class="kbd kbd-lg" data-key="p">p</kbd>
+      </div>
+      <div class="flex justify-center gap-1 my-1 w-full">
+        <kbd class="kbd kbd-lg" data-key="a">a</kbd>
+        <kbd class="kbd kbd-lg" data-key="s">s</kbd>
+        <kbd class="kbd kbd-lg" data-key="d">d</kbd>
+        <kbd class="kbd kbd-lg" data-key="f">f</kbd>
+        <kbd class="kbd kbd-lg" data-key="g">g</kbd>
+        <kbd class="kbd kbd-lg" data-key="h">h</kbd>
+        <kbd class="kbd kbd-lg" data-key="j">j</kbd>
+        <kbd class="kbd kbd-lg" data-key="k">k</kbd>
+        <kbd class="kbd kbd-lg" data-key="l">l</kbd>
+      </div>
+      <div class="flex justify-center gap-1 my-1 w-full">
+        <kbd class="kbd kbd-lg" data-key="Shift">shift</kbd>
+        <kbd class="kbd kbd-lg" data-key="z">z</kbd>
+        <kbd class="kbd kbd-lg" data-key="x">x</kbd>
+        <kbd class="kbd kbd-lg" data-key="c">c</kbd>
+        <kbd class="kbd kbd-lg" data-key="v">v</kbd>
+        <kbd class="kbd kbd-lg" data-key="b">b</kbd>
+        <kbd class="kbd kbd-lg" data-key="n">n</kbd>
+        <kbd class="kbd kbd-lg" data-key="m">m</kbd>
+        <kbd class="kbd kbd-lg" data-key=",">,</kbd>
+        <kbd class="kbd kbd-lg" data-key=".">.</kbd>
+      </div>
+      <div class="flex justify-center gap-1 my-1 w-full">
+        <kbd class="kbd kbd-lg px-16" data-key=" "> </kbd>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
