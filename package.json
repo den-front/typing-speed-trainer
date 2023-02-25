@@ -1,11 +1,10 @@
 {
   "scripts": {
     "start": "yarn parcel index.html",
-    "build": "yarn parcel build index.html"
+    "build": "yarn parcel build --public-url . index.html"
   },
   "name": "keyboard_trainer",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "parcel": "^2.8.3"
